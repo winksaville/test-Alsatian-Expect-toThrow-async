@@ -35,9 +35,9 @@ ok 2 test alsatian async ( 1800 )
 testAsyncToThrow:+ 1750
 asyncThrowError:+ delayMs=1750
 asyncThrowError:- delayMs=1750
-testAsyncToThrow:- 1750
-ok 3 test alsatian async toThrow ( 1750 )
 asyncThrowError.setTimeoutFunc:+ delayMs=1750 rejecting
 asyncThrowError.setTimeoutFunc:- delayMs=1750 rejected
-Done in 6.25s.
+testAsyncToThrow:- 1750
+ok 3 test alsatian async toThrow ( 1750 )
+Done in 6.21s.
 ```

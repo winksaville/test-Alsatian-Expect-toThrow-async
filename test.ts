@@ -57,7 +57,7 @@ export class AsyncToThrowTests {
     @AsyncTest("test alsatian async toThrow")
     public async testAsyncToThrow(delayMs: number) {
         debug(`testAsyncToThrow:+ ${delayMs}`);
-        Expect(() => this.asyncThrowError(delayMs)).toThrowAsync();
+        await Expect(() => this.asyncThrowError(delayMs)).toThrowAsync();
         debug(`testAsyncToThrow:- ${delayMs}`);
     }
 }
