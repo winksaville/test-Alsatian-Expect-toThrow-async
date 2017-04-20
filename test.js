@@ -62,7 +62,7 @@ let AsyncToThrowTests = class AsyncToThrowTests {
     testAsyncToThrow(delayMs) {
         return __awaiter(this, void 0, void 0, function* () {
             debug(`testAsyncToThrow:+ ${delayMs}`);
-            alsatian_1.Expect(() => this.asyncThrowError(delayMs)).toThrow();
+            alsatian_1.Expect(() => this.asyncThrowError(delayMs)).toThrowAsync();
             debug(`testAsyncToThrow:- ${delayMs}`);
         });
     }

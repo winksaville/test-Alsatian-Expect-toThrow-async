@@ -3,19 +3,12 @@
         "target": "es6",
         "module": "commonjs",
         "moduleResolution": "Node",
-        "sourceMap": true,
-        "allowJs": false,
-        "alwaysStrict": true,
         "noImplicitAny": true,
-        "noImplicitReturns": true,
-        "noImplicitThis": true,
-        "noEmitOnError": true,
-        "noUnusedLocals": true,
-        "noUnusedParameters": true,
+        "declaration": true,
+        "sourceMap": true,
+        "preserveConstEnums": true,
         "experimentalDecorators": true,
-        "emitDecoratorMetadata": true,
-        "forceConsistentCasingInFileNames": true,
-        "strictNullChecks": true
+        "emitDecoratorMetadata": true
     },
     "files": [
         "test.ts"

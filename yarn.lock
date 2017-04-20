@@ -14,12 +14,11 @@
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-2.0.29.tgz#5002e14f75e2d71e564281df0431c8c1b4a2a36a"
 
 "@types/node@*", "@types/node@>=0.0.2":
-  version "7.0.12"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.12.tgz#ae5f67a19c15f752148004db07cbbb372e69efc9"
+  version "7.0.13"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.13.tgz#1b0a53fe9ef9c3a5d061b126cc9b915bca43a3f5"
 
-alsatian@^1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/alsatian/-/alsatian-1.3.1.tgz#098b34c5205e3e5c446514a41d3194f7d4c3a63d"
+"alsatian@file:../alsatian.myfork/":
+  version "1.3.0"
   dependencies:
     "@types/glob" "^5.0.30"
     "@types/node" ">=0.0.2"
